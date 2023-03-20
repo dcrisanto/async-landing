@@ -44,6 +44,7 @@ main {
 
 main .main-section {
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -74,13 +75,14 @@ main .videos-section .cards-container {
 }
 
 main .videos-section .cards-container .card {
+  width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 main .videos-section .cards-container .card .img-video {
-  width: 250px;
+  width: 100%;
 }
 
 footer {
